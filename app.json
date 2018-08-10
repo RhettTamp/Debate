@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/match/match",
+    "pages/match/pk/pk",
+    "pages/match/over/over",
+    "pages/rank/rank",
+    "pages/fight/fight",
+    "pages/recommend/recommend"
+   
+
+  ],
+  
+  "window": {
+    "backgroundColor": "#052152",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3883FA",
+    "navigationBarTitleText": "不服来辩",
+    "navigationBarTextStyle": "white"
+  }
+}

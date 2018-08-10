@@ -1,0 +1,35 @@
+/* components/header/header.wxss */
+
+
+/* 头部 */
+
+.header {
+  
+  display: flex;
+  padding-left: 15rpx;
+  padding-bottom: 5rpx;
+  justify-content: left;
+  border-bottom: 1rpx solid #ccc;
+  border-left: 1rpx solid #ccc;
+  border-right: 1rpx solid #ccc;
+  border-radius: 20rpx;
+  box-shadow: 0px 2rpx #e2e2e2;
+  z-index: 999;
+}
+.header>image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  border: 2rpx solid #2DC799;
+}
+
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35rpx;
+  margin-top: 35rpx;
+  font-size: 30rpx;
+  font-family: songti;
+}

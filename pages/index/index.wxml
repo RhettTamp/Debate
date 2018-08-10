@@ -1,0 +1,36 @@
+<!--index.wxml-->
+
+
+
+<!-- <view class="header">
+    <image src='{{userInfo.avatarUrl}}'></image>
+    <text class='userName'>bouc</text>
+    <view class="text">
+   
+     <text class='rank'>孤独求败</text>
+     <text class='coin'>金币：999</text>
+    </view> 
+  </view> -->
+<view class="userinfo">
+  <view class="userinfo-avatar">
+    <open-data  type="userAvatarUrl"></open-data>
+  </view>
+    <open-data type="userNickName"></open-data>
+</view>
+
+<view class="container">
+
+
+
+
+  <view class='item'>
+    <text bindtap='toRecommend'>推荐</text>
+    <text>搜索</text>
+    <text>商店</text>
+  </view>
+
+  <button class='btn' bindtap='toMatch'>自动匹配</button>
+  <button class='btn' bindtap="toFight" data-url="">发起对战</button> 
+  <button class='btn'>好友</button>
+  <button class='btn' bindtap='toRank'>排行榜</button>
+</view>

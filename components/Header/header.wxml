@@ -1,0 +1,8 @@
+<!--components/header/header.wxml-->
+<view class="header">
+    <image src='https://tvax3.sinaimg.cn/crop.8.7.322.322.180/8970ff1ely8frdenkcgutj209k09kdgw.jpg'></image>
+    <view class="text">
+     <text class='userName'>漫画 </text>
+     <text>经验值：金币数：荣誉值：</text>
+    </view> 
+  </view>
