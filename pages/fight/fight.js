@@ -4,12 +4,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    title: ''
   },
-  toMatch: function() {
-    wx.navigateTo({
-      url: '../match/match',
+  titleInput: function(e) {
+    this.setData({
+      title: e.detail.value
     })
+  },
+  toMatch: function(options) {
+    if (this.data.title == "") {
+
+      wx.showToast({
+        title: '请输入辩题',
+      icon:'loading',
+        duration: 2000
+      })
+    } else {
+
+
+      wx.navigateTo({
+        url: 'fight_match/fight_match?title=' + this.data.title,
+      })
+    }
   },
   /**
    * 生命周期函数--监听页面加载

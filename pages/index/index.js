@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-
+    num: 88,
     userInfo: [],
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -16,21 +16,31 @@ Page({
       url: '../fight/fight'
     })
   },
+  toFriend: function() {
+    wx.navigateTo({
+      url: '../friend/friend'
+    })
+  },
+  toSearch: function() {
+    wx.navigateTo({
+      url: '../search/search'
+    })
+  },
   toMatch: function() {
     wx.navigateTo({
-        url: '../match/match',
-      })
+      url: '../match/match',
+    })
 
   },
-  toRank:function(){
+  toRank: function() {
     wx.navigateTo({
       url: '../rank/rank',
     })
   },
-  toRecommend:function(){
-wx.navigateTo({
-  url: '../recommend/recommend',
-})
+  toRecommend: function() {
+    wx.navigateTo({
+      url: '../recommend/recommend',
+    })
   },
   onReady: function() {
 
@@ -38,6 +48,9 @@ wx.navigateTo({
   },
 
   onLoad: function() {
+    var num = this.data.num.toString()
+   
+
     console.log('test')
     if (app.globalData.userInfo) {
 
@@ -68,6 +81,7 @@ wx.navigateTo({
       })
     }
   },
+
   getUserInfo: function(e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo

@@ -1,0 +1,7 @@
+/* pages/fight/fight_match/fight_match.wxss */
+
+.title{
+  color: #000;
+  width: 250rpx;
+  margin: 50rpx auto;
+}

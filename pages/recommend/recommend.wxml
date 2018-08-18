@@ -1,2 +1,54 @@
-<view>
-推荐</view>
+<view class='classify' >
+
+  <view class='box'>
+    <view class='item' wx:for="{{class}}" bindtap='classClick' id='{{item.name}}'>
+      <image src='{{item.icon}}' class='icon'></image>
+      <text>{{item.name}}</text>
+    </view> 
+  </view>
+  
+</view>
+
+<view class='userinfo' bindtap='toWatch'>
+
+  <view class='item' bindtap='toPk'>
+    <text class='positive '>正方</text>
+    <image class='img1' src='{{userinfo.avatarUrl}}'></image>
+
+  </view>
+  <view class='vs'>VS</view>
+  <view class='title'>懒是不是人类之光？</view>
+  <text class='label'>对战中</text>
+  <view class='item' bindtap='toPk'>
+    <text class='negative'>反方</text>
+    <image class='img2'></image>
+
+  </view>
+
+  <view class='footer'>
+    <text class='user'>18765人</text>
+    <text class='comment'>3678条</text>
+  </view>
+</view>
+
+<view class='userinfo' bindtap='toWatch'>
+
+  <view class='item' bindtap='toPk'>
+    <text class='positive '>正方</text>
+    <image class='img1' src='{{userinfo.avatarUrl}}'></image>
+
+  </view>
+  <view class='vs'>VS</view>
+  <view class='title'>懒是不是人类之光？</view>
+  <text class='label'>最热门</text>
+  <view class='item' bindtap='toPk'>
+    <text class='negative'>反方</text>
+    <image class='img2'></image>
+
+  </view>
+
+  <view class='footer'>
+    <text class='user'>18765人</text>
+    <text class='comment'>3678条</text>
+  </view>
+</view>

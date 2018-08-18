@@ -1,0 +1,48 @@
+page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25%;
+}
+
+.item>image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  border: 1px solid pink;
+  margin: 10px auto;
+  display: block;
+}
+
+.item {
+  width: 300rpx;
+}
+
+.positive, .negative {
+  display: block;
+  width: 100rpx;
+  margin: 10px auto;
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+.msg{
+  width: 500rpx;
+  margin: 100rpx auto;
+  text-align:center;
+}
+.title{
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50rpx;
+}
+button{
+  margin-bottom: 50rpx;
+}

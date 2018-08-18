@@ -7,6 +7,7 @@ Page({
       avatarUrl: 'https://tvax3.sinaimg.cn/crop.8.7.322.322.180/8970ff1ely8frdenkcgutj209k09kdgw.jpg'
     }
   },
+ 
   goToIndex() {
     wx.redirectTo({
       url: '../index/index',
@@ -17,6 +18,7 @@ Page({
       title: ``
     })
   
+   
   },
   onReady() {
     setTimeout(() => {

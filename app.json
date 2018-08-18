@@ -3,11 +3,18 @@
     "pages/welcome/welcome",
     "pages/index/index",
     "pages/match/match",
+    "pages/match/match_animation/match_animation",
     "pages/match/pk/pk",
     "pages/match/over/over",
     "pages/rank/rank",
     "pages/fight/fight",
-    "pages/recommend/recommend"
+    "pages/fight/fight_match/fight_match",
+    "pages/friend/friend",
+    "pages/search/search",
+    "pages/recommend/recommend",
+ 
+    "pages/recommend/classifyItem/classifyItem",
+    "pages/recommend/watch/watch"
    
 
   ],

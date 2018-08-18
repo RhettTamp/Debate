@@ -1,0 +1,83 @@
+.classTitle{
+  width: 100rpx;
+  margin: 10rpx auto;
+  font-weight: bold;
+}
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  margin-top: 20rpx;
+  position: relative;
+  height: 250rpx;
+}
+.vs{
+  
+ position: absolute;
+ left: 50%;
+ width: 50rpx;
+ text-align: center;
+ margin-left: -25rpx;
+}
+.label{
+    
+ position: absolute;
+ left: 50%;
+ bottom: 8rpx;
+ width: 100rpx;
+ text-align: center;
+ margin-left: -50rpx;
+ border: 1px solid #ccc;
+}
+.title{
+
+ width: 500rpx;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+ margin: 50px auto;
+}
+.item>image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 1px solid pink;
+  margin: 10px auto;
+  display: block;
+}
+
+.item {
+  width: 200rpx;
+
+}
+
+.positive, .negative {
+  display: block;
+  width: 100rpx;
+  margin: 10px auto;
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+.footer{
+  height: 50rpx;
+  width: 100%;
+  
+  border-top: 1px solid #e2e2e2;
+  /* background: red; */
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.footer .user{
+  margin-left: 50rpx;
+}
+.footer .comment{
+  margin-right: 50rpx;
+}

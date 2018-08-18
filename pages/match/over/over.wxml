@@ -1,1 +1,27 @@
-<view>辩论结束</view>
+<view>
+
+
+  <view class='userinfo'>
+    <view class='item' bindtap='toPk'>
+    <text class='positive '>正方</text>
+      <image class='img1' src='{{userinfo.avatarUrl}}'></image>
+      <text class='positive '>{{userinfo.nickName}}</text>
+    </view>
+
+    <view class='item'>
+     <text class='negative'>反方</text>
+      <image class='img2'></image>
+     <text class='negative'>陈独秀</text>
+    </view>
+  </view>
+
+  <view class='msg'>
+    <view class='title'>对局结束</view>
+    <view>经验：+10</view>
+    <view>金币：+30</view>
+  </view>
+
+  <button type='primary'>加好友</button>
+  <button type='primary' bindtap='toIndex'>返回首页</button>
+
+</view>

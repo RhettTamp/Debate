@@ -1,6 +1,6 @@
 <!--index.wxml-->
 
-
+<text class='test'>1111</text>
 
 <view class='header'>
 
@@ -20,18 +20,31 @@
 
 </view>
 
-
 <view class="container">
 
-  <view class='item'>
-    <text bindtap='toRecommend'>推荐</text>
-    <text>搜索</text>
-    <text>商店</text>
+<view class='layout_horizontal'>
+  <view class='layout_vertical'>
+    <button class='btn recommend' bindtap='toRecommend'>推荐</button>  
+    <button class='btn search' bindtap='toSearch'>搜索</button>
+    <button class='btn store' bindtap=''>商店
+    </button>
   </view>
-<button class='btn rank' bindtap='toMatch'>自动匹配</button>
-  <button class='btn rank' bindtap='toFight'>发起对战</button>
-  <button class='btn match'  >好友</button>
-  <button class='btn fight' bindtap="toRank" data-url="">排行榜</button>
-  <button class='btn friend'>战队</button>
+
+  <view class='layout_vertical'>
+    <button class='btn match' bindtap='toMatch'>自动匹配</button>
+    <button class='btn flight' bindtap='toFight'>发起对战</button>
+  </view>
+
+</view>
+
+<view class='layout_horizontal'>
+  <button class='btn team'>战队</button>
+  <view class='container'>
+    <button class='btn friend' bindtap='toFriend' >好友</button>
+  <button class='btn rank' bindtap="toRank" data-url="">排行榜</button>
+  </view>
+  
+</view>
+
   
 </view>

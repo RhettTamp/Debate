@@ -1,25 +1,25 @@
 <view>
 
-  <view class='title'>辩题：懒是不是人之光？</view>
+  
+
+  <view class='title' >{{randomTitle[random]}}</view>
  <view class='choose'>请选择正方/反方</view> 
 
 
   <view class='content'>
 
 
-   
-
-<view class='item' bindtap='toPk'>
+<view class='item' bindtap='toZheng'>
     <image class='img1' ></image>
     <text class='positive '>正方</text>
 </view>
 
-<view class='item' bindtap='toPk'>
+<view class='item' bindtap='toFan'>
     <image class='img2'></image>
     <text class='negative'>反方</text>
 </view>
   </view>
 
 
-  <text class='change'>换个辩题</text>
+  <text class='change' bindtap='change'>换个辩题</text>
 </view>

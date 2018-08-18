@@ -11,7 +11,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.98",
+	"libVersion": "2.2.2",
 	"appid": "wx06400ce613a4fe62",
 	"projectname": "%E4%B8%8D%E6%9C%8D%E6%9D%A5%E8%BE%A9.",
 	"isGameTourist": false,
@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
@@ -50,7 +50,50 @@
 				{
 					"id": -1,
 					"name": "选择正反方",
-					"pathName": "pages/recommend/recommend"
+					"pathName": "pages/recommend/recommend",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "对战",
+					"pathName": "pages/match/pk/pk",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "对战结束",
+					"pathName": "pages/match/over/over",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "匹配",
+					"pathName": "pages/match/match",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "推荐",
+					"pathName": "pages/recommend/recommend",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "观战",
+					"pathName": "pages/recommend/watch/watch",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "好友",
+					"pathName": "pages/friend/friend",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发起对战",
+					"pathName": "pages/fight/fight",
+					"query": ""
 				}
 			]
 		}

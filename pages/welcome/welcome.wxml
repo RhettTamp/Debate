@@ -26,9 +26,8 @@
        <view class="bd">
         <!-- <image class="smalltitle" src="/images/more/confirm-word1.png"></image> -->
         <view class="confirm-btn" bindtap='goToIndex'>
-          <text>开始</text>
-        </view>
-      
+        <text>开始</text>
+        </view>  
       </view> 
     </view>
   </block>

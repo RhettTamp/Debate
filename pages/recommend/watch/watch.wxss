@@ -1,0 +1,163 @@
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  margin-top: 20rpx;
+  position: relative;
+  height: 250rpx;
+}
+.nickname1{
+  position: absolute;
+  top: 30rpx;
+  left: 150rpx;
+}
+.nickname2{
+  position: absolute;
+  top: 30rpx;
+  right: 150rpx;
+}
+.vs{
+  
+ position: absolute;
+ left: 50%;
+ width: 50rpx;
+ text-align: center;
+ margin-left: -25rpx;
+}
+.label{
+    
+ position: absolute;
+ left: 50%;
+ bottom: 8rpx;
+ width: 100rpx;
+ text-align: center;
+ margin-left: -50rpx;
+ border: 1px solid #ccc;
+}
+.title{
+
+ width: 500rpx;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+ margin: 50px auto;
+}
+.item>image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 1px solid pink;
+  margin: 10px auto;
+  display: block;
+}
+
+.item {
+  width: 200rpx;
+
+}
+
+.positive, .negative {
+  display: block;
+  width: 100rpx;
+  margin: 10px auto;
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+.footer{
+  height: 50rpx;
+  width: 100%;
+  
+  border-top: 1px solid #e2e2e2;
+  /* background: red; */
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.footer .user{
+  margin-left: 50rpx;
+}
+.footer .comment{
+  margin-right: 50rpx;
+}
+
+
+.btn{
+  width: 520rpx;
+  
+  display: flex;
+ position: absolute;
+ bottom: 0;
+ z-index: 999;
+
+}
+.p,.n{
+  width: 250rpx;
+  height: 70rpx;
+  font-size: 24rpx;
+  line-height: 80rpx;
+  text-align: center;
+   z-index: 999;
+}
+.record{
+  
+ border: 1px solid #ccc;
+ border-bottom: 0px;
+ height: 800rpx;
+ overflow: scroll;
+padding-left: 10rpx;
+}
+.record text{
+  font-size: 28rpx;
+  margin-top: 10rpx;
+  color: #000;
+ 
+}
+
+.input-panel {
+    height: 72rpx;
+    box-sizing: border-box;
+  
+    background: #f5f5f7;
+    border-top:#d7d7d9 1rpx solid;
+  
+    
+     position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.send-input {
+    flex: 1;
+    height: 72rpx;
+    display: block;
+    width: 500rpx;
+    background: red;
+    border:#ddd 1rpx solid;
+    border-radius: 3px;
+    
+    box-sizing: border-box;
+    
+}
+.send-btn {
+    width: 160rpx;
+    height: 72rpx;
+    line-height: 72rpx;
+    background-color: #ccc;
+    font-size: 28rpx;
+    color:#fff;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+
+
+
+/* 发送按钮 */

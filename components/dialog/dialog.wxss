@@ -84,9 +84,9 @@
   height: 100rpx;
   line-height: 100rpx; 
   border-radius: none;
-  border: 1px solid #2dc799;
+  border: 1px solid #3883FA;
   color: #fff;
-  background-color:#2dc799;
+  background-color:#3883FA;
   display: flex;
   font-size: 30rpx;
   align-items: center;

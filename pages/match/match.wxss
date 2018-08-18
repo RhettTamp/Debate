@@ -8,6 +8,8 @@ Page{
   width: 500rpx;
   margin: 20% auto;
   text-align: center;
+  height: 100rpx;
+ 
 
 }
 .content{

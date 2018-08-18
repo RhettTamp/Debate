@@ -19,46 +19,22 @@ const formatTime = (date, fmt) => { // 时间格式化
   return fmt;
 }
 
-const padLeftZero = (str) => {
-  return ('00' + str).substr(str.length);
-}
-
-const $get = (url, data) => {
-  return new Promise((resolve, reject) => {
-    wx.request({
-      url,
-      data,
-      header: { 'Content-Type': 'json' },
-      success: resolve,
-      fail: reject
+function matchTimeRun() {
+  let number = 1;
+ 
+  let time = setInterval(() => {
+   this.setData({
+      number
     })
-  })
+    number++
+  }, 1000)
 }
 
-const convertToStarsArray = (average) => {
-  const LENGTH = 5;
-  const CLS_ON = 'on'; // 全星
-  const CLS_HALF = 'half'; // 半星
-  const CLS_OFF = 'off'; // 无星
-  let result = [];
-  let score = Math.round(average) / 2;
-  let hasDecimal = score % 1 !== 0
-  let integer = Math.floor(score)
-  for (let i = 0; i < integer; i++) {
-    result.push(CLS_ON)
-  }
-  if (hasDecimal) {
-    result.push(CLS_HALF)
-  }
-  while (result.length < LENGTH) {
-    result.push(CLS_OFF)
-  }
-  return result;
-}
+
+
 
 module.exports = {
   wxParse,
   formatTime,
-  $get,
-  convertToStarsArray
+  
 }

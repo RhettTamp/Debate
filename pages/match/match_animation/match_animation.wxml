@@ -1,0 +1,6 @@
+<view class='box'>
+<image src='{{userinfo.avatarUrl}}'></image>
+<view class='nickname'>{{userinfo.nickName}}</view>
+<view>{{second}}s </view>
+<view class='nickname'class="match">匹配中...</view>
+</view>

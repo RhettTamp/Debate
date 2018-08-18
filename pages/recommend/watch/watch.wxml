@@ -1,0 +1,61 @@
+<view class='userinfo' bindtap='toWatch'>
+
+  <view class='item'>
+
+    <image class='img1' src='{{userinfo.avatarUrl}}'></image>
+    <text class='nickname1'>LIN-巧舌如簧</text>
+
+  </view>
+
+  <view class='title'>懒是不是人类之光？</view>
+
+
+  <view class='item'>
+
+    <image class='img2'></image>
+    <text class='nickname2'>Charlene-能言善辩</text>
+  </view>
+
+  <view class='footer'>
+    <text class='user'>正方</text>
+    <text class='comment'>反方</text>
+  </view>
+</view>
+
+
+<view class='btn'>
+  <button class='p' type='warn'>支持正方 8776 人</button>
+  <button class='n'>支持反方 8776 人</button>
+</view>
+
+<view>
+<text>辩论记录</text>
+  <view class='record'>
+    <text>正方 ccc：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 ccc：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 ccc：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+    <text>正方 bbb：巴巴爸爸叭叭叭阿爸\n</text>
+
+  </view>
+
+
+
+  <view class="input-panel">
+        <button class="pic-icon"></button>
+        <input type="text" placeholder='请输入评论' class="send-input"></input>
+        <button  class="send-btn">评论</button>
+    </view>
+
+</view>

@@ -1,0 +1,6 @@
+<view>
+<button>微信邀请</button>
+<button>好友邀请</button>
+</view>
+
+<view class='title' >辩题：{{title}}</view>

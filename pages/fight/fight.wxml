@@ -1,3 +1,11 @@
-<view>好友对战</view>
 
-<text bindtap='toMatch'>下一步</text>
+<view class='icon'>辩</view>
+
+
+
+<input placeholder='输入辩题并以问号结尾' auto-focus='true' name="title" bindinput='titleInput'></input>
+
+<text  bindtap='toMatch'>下一步</text>
+
+
+<view class='tips'>发起对战的你默认为正方哦~</view>

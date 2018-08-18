@@ -1,0 +1,39 @@
+<view>
+
+  <view>
+    <text>A</text>
+    <view class='item'>
+      <image></image>
+      <text>阿一</text>
+      <view class='fight'>对战</view>
+    </view>
+
+    <view class='item'>
+      <image></image>
+      <text>阿二</text>
+      <view class='fight'>对战</view>
+    </view>
+    <view class='item'>
+      <image></image>
+      <text>阿三</text>
+      <view class='fight'>对战</view>
+    </view>
+    
+  </view>
+
+  <view>
+    <text>B</text>
+    <view class='item'>
+      <image></image>
+      <text>bouc</text>
+      <view class='fight'>对战</view>
+    </view>
+
+    
+    <view class='item'>
+      <image></image>
+      <text>bouc</text>
+      <view class='fight'>对战</view>
+    </view>
+  </view>
+</view>
