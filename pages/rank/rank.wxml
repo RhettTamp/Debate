@@ -18,10 +18,10 @@
         <view style='width:70%;'>
           <view class='itemDetail'>
             <text>{{item.nickName}}</text>
-            <text style='font-size:28rpx;'>来自:{{item.city?item.city:'北京'}}</text>
+            <text style='font-size:28rpx;'>孤独求败</text>
           </view>
           <view class='itemDetail'>
-            <text>最强王者</text>
+           
 
           </view>
         </view>
@@ -37,10 +37,10 @@
         <view style='width:70%;'>
           <view class='itemDetail'>
             <text>{{item.nickName}}</text>
-            <text style='font-size:28rpx;'>来自:{{item.city?item.city:'北京'}}</text>
+            <text style='font-size:28rpx;'>孤独求败</text>
           </view>
           <view class='itemDetail'>
-            <text>最强王者</text>
+         
 
           </view>
         </view>
@@ -59,14 +59,12 @@
       </image>
     </view>
 
-    <view style='width:70%;'>
+    <view class='item'>
       <view class='itemDetail'>
         <text> {{userInfo.nickName}}</text>
-        <text style='font-size:28rpx;'>来自:{{userInfo.city?userInfo.city:'北京'}}</text>
+        <text style='font-size:28rpx;' class='duanwei' >孤独求败</text>
       </view>
-      <view class='itemDetail'>
-        <text>最强王者</text>
-      </view>
+      
     </view>
 
   </view>
