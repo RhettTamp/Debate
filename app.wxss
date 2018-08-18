@@ -1,6 +1,8 @@
 /**app.wxss**/
 @import "utils/wxParse/wxParse.wxss";
-
+Page{
+  background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/back.jpg')
+}
 text {
   font-family: MicroSoft Yahei;
   font-size: 24rpx;

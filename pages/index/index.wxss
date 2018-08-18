@@ -1,48 +1,57 @@
 /**index.wxss**/
+
 /* components/header/header.wxss */
-.test{
+
+.test {
   position: absolute;
   top: -50px;
   font-size: 32px;
   color: red;
   left: 50%;
 }
-/* 头部 */
-Page{
-  background: #f5f6f7;
-}
-.header{
-  height: 150rpx;
-  background: #3883FA;
-  width: 100%;
-padding-top: 30rpx;
 
+/* 头部 */
+
+Page {
 }
-.container{
+.match{
+  width: 390rpx;
+}
+/* .header {
+  
+  padding-top: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.container {
   margin-top: 130rpx;
-  background: #f5f6f7;
   background-size: 100% 100%;
   background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/背景.jpg');
 }
-.userinfo {
+
+/* .userinfo {
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 14px;
-  
-  
-  
+  background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/4.png');
   border-radius: 20rpx;
-  box-shadow: 0px 3px  #ccc;
-  width: 90%;
+  background-repeat: no-repeat;
+  width: 800rpx;
   margin: 0rpx auto;
-
- background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/timg.jpg');
- background-size: cover;
-  padding-bottom: 20rpx;
+  height: 250rpx;
+} */
+.head{
+  width: 95%;
+  height: 250rpx;
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/4.png');
+  color: #fff;
 }
-
 .userinfo-avatar {
   overflow: hidden;
   display: block;
@@ -52,17 +61,32 @@ padding-top: 30rpx;
   border-radius: 50%;
   border: 4px solid #fff;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 42%;
+  top: 10rpx;
 }
-.rankInfo{
-   width: 90%;
+
+.rankInfo {
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.rankInfo text{
-color: #fff;
+.name{
+   position: absolute;
+  left: 46%;
+  top: 140rpx;
+  font-size: 16px;
+
 }
+.money {
+  color: #fff;
+  position: absolute;
+  top: 190rpx;
+  right: 210rpx;
+}
+
 /* .item {
   width: 90%;
   border: 1px solid #ccc;
@@ -81,48 +105,54 @@ color: #fff;
 /* .item text {
 
 color: #3883FA; */
-  /* font-size: 14px;
+
+/* font-size: 14px;
 } */
+
 /* .container{
   background-size: 100% 100%;
   background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/背景.jpg');
 } */
 
-.layout_vertical{
+.layout_vertical {
   margin-left: 18rpx;
   margin-right: 18rpx;
   flex: 1;
-}
 
-.layout_horizontal{
+}
+.layout_vertical image{
+
+}
+.layout_horizontal {
   flex-direction: row;
   display: flex;
+  width: 90%;
+  margin: -50rpx auto;
 }
 
-.recommend{
+.recommend {
   width: 250rpx;
   height: 120rpx;
   line-height: 120rpx;
-  background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/推荐.png');
 }
 
-.search{
-  margin-top: 20rpx;
+.search {
+  margin-top: 5rpx;
   width: 250rpx;
   height: 120rpx;
   line-height: 120rpx;
   background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/搜索.png');
 }
 
-.store{
-  margin-top: 20rpx;
+.store {
+  margin-top: 5rpx;
   width: 250rpx;
   height: 120rpx;
   line-height: 120rpx;
   background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/商店.png');
 }
 
-.match{
+.match {
   height: 180rpx;
   margin-left: 10rpx;
   /* flex: 1; */
@@ -130,16 +160,17 @@ color: #3883FA; */
   background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/自动匹配.png');
 }
 
-.flight{
+.flight {
   margin-top: 20rpx;
   height: 180rpx;
   margin-left: 10rpx;
   flex: 1;
   line-height: 200rpx;
   background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/发起对战.png');
+  width: 390rpx;
 }
 
-.team{
+.team {
   height: 180rpx;
   width: 350rpx;
   margin-left: 20rpx;
@@ -147,7 +178,7 @@ color: #3883FA; */
   background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/战队.png');
 }
 
-.friend{
+.friend {
   height: 110rpx;
   margin-left: 450rpx;
   margin-top: 30rpx;
@@ -156,11 +187,32 @@ color: #3883FA; */
   background-size: 100% 100%;
 }
 
-.rank{
-width: 640rpx;
+.rank {
+  width: 640rpx;
   height: 180rpx;
-   margin-left: 8%;
-   margin-top: 15rpx;
-   line-height: 180rpx;
-   background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/排行榜.png');
+  margin-left: 8%;
+  margin-top: 15rpx;
+  line-height: 180rpx;
+  background-image: url('https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/排行榜.png');
+}
+.zhandui{
+  width: 340rpx;
+  height: 213rpx;
+  position: absolute;
+  top: 65%;
+  left: 7%; 
+}
+.friends{
+  width: 300rpx;
+  height: 100rpx;
+  position: absolute;
+  right: 5%;
+  top: 65%;
+}
+.rank{
+width: 300rpx;
+  height: 100rpx;
+  position: absolute;
+  right: 5%;
+  top: 73%;
 }
