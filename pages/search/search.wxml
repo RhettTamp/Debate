@@ -1,5 +1,6 @@
-<view>
+<view class='layout_horizontal'>
 
 <input placeholder='关键词' auto-focus=''></input>
-<button class='primary'>搜索</button>
+
+<view class='primary'>取消</view>
 </view>

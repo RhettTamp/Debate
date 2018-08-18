@@ -1,6 +1,10 @@
-<view>
-<button>微信邀请</button>
-<button>好友邀请</button>
+<view class='title' >辩题：{{title}}</view>
+
+
+
+
+<view class='share'>
+  <image class='weixin' src = 'https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/12.png'> </image>
+  <image class='friend' src = 'https://lg-6wpqzwp0-1253820244.cos.ap-shanghai.myqcloud.com/13.png'> </image>
 </view>
 
-<view class='title' >辩题：{{title}}</view>

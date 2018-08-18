@@ -5,3 +5,28 @@
   width: 250rpx;
   margin: 50rpx auto;
 }
+
+/* .share{
+  justify-content: center ;
+  display: flex;
+  margin: auto;
+  height: 200rpx;
+} */
+page{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.weixin{
+  margin-top: 400rpx;
+  margin-left: 40%;
+  width: 400rpx;
+  height: 80rpx;
+}
+
+.friend{
+  margin-top: 20rpx;
+  margin-left: 40%;
+  width: 400rpx;
+  height: 80rpx;
+}

@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 11,
 			"list": [
 				{
 					"id": -1,
@@ -94,6 +94,17 @@
 					"name": "发起对战",
 					"pathName": "pages/fight/fight",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "搜索",
+					"pathName": "pages/search/search",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发起对战下一步",
+					"pathName": "pages/fight/fight_match/fight_match"
 				}
 			]
 		}
